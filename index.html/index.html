@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guía de Hoteles</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 20px;
+    }
+    .hotel {
+      margin-bottom: 20px;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+    .hotel img {
+      float: left;
+      margin-right: 10px;
+      border-radius: 5px;
+    }
+    .hotel h2 {
+      font-size: 1.2em;
+    }
+    .hotel p {
+      margin-top: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Guía de Hoteles</h1>
+  </header>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#hoteles">Hoteles</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <div class="container" id="inicio">
+    <h2>Bienvenido a nuestra Guía de Hoteles</h2>
+    <p>Encuentra información sobre los mejores hoteles para tu próxima estadía.</p>
+  </div>
+  <div class="container" id="hoteles">
+    <h2>Nuestros Hoteles Recomendados</h2>
+    <div class="hotel">
+      <img src="https://via.placeholder.com/150" alt="Hotel 1">
+      <h2>Hotel Ejemplo 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero in justo tincidunt, nec vehicula sem fermentum.</p>
+    </div>
+    <div class="hotel">
+      <img src="https://via.placeholder.com/150" alt="Hotel 2">
+      <h2>Hotel Ejemplo 2</h2>
+      <p>Phasellus sed vehicula elit, sit amet laoreet magna. Mauris vitae arcu ac mi iaculis bibendum.</p>
+    </div>
+    <div class="hotel">
+      <img src="https://via.placeholder.com/150" alt="Hotel 3">
+      <h2>Hotel Ejemplo 3</h2>
+      <p>Aliquam erat volutpat. Proin nec orci at nisi tempus gravida. Nullam nec tellus eu libero ultrices aliquam.</p>
+    </div>
+  </div>
+  <div class="container" id="contacto">
+    <h2>Contacto</h2>
+    <form action="#">
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2024 Guía de Hoteles. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
